@@ -1,17 +1,19 @@
 {
-  "data": {
-    "attributes": {
-      "is-destroy":false,
-      "message": "Terraform Cloud API is Magic! 🦄 🌈 🧙‍♂️"
-    },
-    "type":"runs",
-    "relationships": {
-      "workspace": {
-        "data": {
-          "type": "workspaces",
-          "id": "REPLACE_WITH_WORKSPACE_ID"
-        }
-      }
-    }
-  }
+	"data": {
+		"attributes": {
+			"is-destroy": false,
+			"message": "Terraform Cloud API is Magic",
+			"category": "terraform"
+
+		},
+		"type": "runs",
+		"relationships": {
+			"workspace": {
+				"data": {
+					"type": "workspaces",
+					"id": "ws-f1WRuFdB79cwHqrw"
+				}
+			}
+		}
+	}
 }
